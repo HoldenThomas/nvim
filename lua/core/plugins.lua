@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"})
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use {
