@@ -30,3 +30,25 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 -- Indenting visual block doesn't go out of visual block
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
+
+-- nnoremap <A-v> :wincmd v<CR>
+-- nnoremap <A-s> :wincmd s<CR>
+-- nnoremap <A-t> :tabnew<CR>
+-- map <A-h> <C-w>h
+-- map <A-j> <C-w>j
+-- map <A-k> <C-w>k
+-- map <A-l> <C-w>l
+-- nnoremap <A-p> :tabp<CR>
+-- nnoremap <A-n> :tabn<CR>
+-- nnoremap <A-+> :vertical resize +5<CR>
+-- nnoremap <A--> :vertical resize -5<CR>
+-- nnoremap <leader>q :wq<CR>
+-- nnoremap <leader>Q :q!<CR>
+-- nnoremap <leader>w :w<CR>
+-- nnoremap <leader>S :%s//g<Left><Left>
+-- Perform dot commands over visual blocks:
+-- vnoremap . :normal .<CR>
+-- " Spell Checking
+-- nnoremap <silent> <F11> :set spell!<cr>
+-- inoremap <silent> <F11> <C-O>:set spell!<cr>
+
